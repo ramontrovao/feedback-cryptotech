@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário feedback UI/UX</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">
+        Formulário feedback relacionado ao projeto
+        <a href="https://cryptotec.vercel.app/home">Cryptotec</a>
+      </h1>
+
+      <form
+        class="form-container"
+        action="https://formsubmit.co/ramontrov@gmail.com"
+        method="post"
+      >
+        <div class="form-field">
+          <label class="input-label" for="name">Seu nome</label>
+          <input
+            class="input-field"
+            type="text"
+            name="Nome"
+            id="name"
+            required
+          />
+        </div>
+
+        <div class="form-field">
+          <label class="input-label" for="age">Sua idade</label>
+          <input
+            class="input-field"
+            type="number"
+            name="Idade"
+            id="age"
+            required
+          />
+        </div>
+
+        <div class="form-field">
+          <label class="input-label" for="design-feedback"
+            >O design do projeto está bom?</label
+          >
+          <input
+            class="input-field"
+            type="text"
+            name="Feedback do design"
+            id="design-feedback"
+            required
+          />
+        </div>
+
+        <div class="form-field">
+          <label class="input-label" for="design-attention"
+            >O que mais te chamou atenção no projeto?</label
+          >
+          <textarea
+            class="textarea-field"
+            name="O que mais chamou atenção"
+            id="design-attention"
+            required
+          ></textarea>
+        </div>
+
+        <div class="form-field">
+          <label class="input-label" for="how-to-improve"
+            >Como você melhoraria ele?</label
+          >
+          <textarea
+            class="textarea-field"
+            name="Como melhoraria o design"
+            id="how-to-improve"
+            required
+          ></textarea>
+        </div>
+
+        <div class="form-field">
+          <label class="input-label" for="attention-color"
+            >No que que as cores te chamaram atenção?</label
+          >
+          <textarea
+            class="textarea-field"
+            name="No que as cores chamaram a atenção"
+            id="attention-color"
+            required
+          ></textarea>
+        </div>
+
+        <div class="form-field">
+          <label class="input-label" for="acessibility-opinion"
+            >Você considera o site acessível e usável? Por quê?</label
+          >
+          <textarea
+            class="textarea-field"
+            name="Considera o site acessível e usável, por quê?"
+            id="acessibility-opinion"
+            required
+          ></textarea>
+        </div>
+
+        <button class="form-submit" type="submit">Enviar resposta</button>
+      </form>
+
+      <footer class="footer-container">
+        <p>Grupo do trabalho: Ramon, Nicolas, Vitor Dalvi, Guilherme e Pedro</p>
+      </footer>
+    </div>
+  </body>
+</html>
